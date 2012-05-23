@@ -37,24 +37,38 @@
 
 <body id = "home_page">
 <!-- Container -->
-	<div class="container">
-		
+	<div class="container-fluid">
+		<div class="page-header">
+		  <h1>Example page header</h1>
+		</div>
+		<div class="navbar">
+		  <div class="navbar-inner">
+		    <div class="container">
+		      <!-- <h1 class="pull-left"> I'm in the nav bar </h1> -->
+			 <a class = "title" href="index.html">
+				<!-- <img src="images/logo3.2.gif" alt="Logo" name="Insert_logo" width="180" height="182" id="logo" /> -->
+				<h1 id = "name"> Aderinsola <span id = "last_name">Akintilo</span></h1>
+				</a>
+		<div class = "pull-right">
+			 <ul class = "nav">
+						  <li><a id ="work_nav" href="work.html">
+					        <!-- <i class="icon-search icon-briefcase"></i> -->
+					Work </a></li>
+					      <li><a id = "about_nav" href="about.html">
+					        About </a></li>
+					      <li><a id = "resume_nav" href="resume.html">
+					        Resume </a></li>
+					      <li><a id = "contact_nav" href="contact.html">
+					        Contact </a></li>
+			    </ul>
+			</div>
+		    </div>
+		  </div>
+		</div>
 	<!-- Header	 -->
-	  <div class="header"> <a id = "title" href="index.html">
-		<!-- <img src="images/logo3.2.gif" alt="Logo" name="Insert_logo" width="180" height="182" id="logo" /> -->
-		<h1 id = "name"> Aderinsola <span id = "last_name">Akintilo</span></h1>
-		</a> 
+	  <div class="header"> 
 	   <!-- Navigation Bar -->
-	    <ul id = "nav_bar">
-				  <li><a id ="work_nav" href="work.html">
-			        Work </a></li>
-			      <li><a id = "about_nav" href="about.html">
-			        About </a></li>
-			      <li><a id = "resume_nav" href="resume.html">
-			        Resume </a></li>
-			      <li><a id = "contact_nav" href="contact.html">
-			        Contact </a></li>
-	    </ul>
+	   
 	    <div id="line"> </div>
 	  </div> 	
 	<hr id = "header_line"/>
@@ -62,62 +76,24 @@
 	
 	  <!-- Content -->
 	  <div class="content">
-			
-		<div id="wrapper">
-		
-		<!-- Nivo Gallery -->
-				<div id="gallery" class="nivoGallery"> 
-				<!--
-					<ul>
-						<li class="porfolio_links" data-title="Lorem ipsum 1" data-caption="dolor sit amet, consectetur adipiscing elit"><img src="images/homebot_gallery_img.gif" alt="" onClick="document.location.href='links/work.html'" /></li>
-						<li class="porfolio_links" data-title="Lorem ipsum 2" data-caption="dolor sit amet, consectetur adipiscing elit"><img src="images/emo_gallery_img.gif" alt="" onClick="document.location.href='links/work.html'" /></li>
-						<li class="porfolio_links" data-title="Lorem ipsum 3" data-caption="dolor sit amet, consectetur adipiscing elit"><img src="images/3.jpeg" alt="" /></li>
-						<li class="porfolio_links" data-title="Lorem ipsum 4" data-caption="dolor sit amet, consectetur adipiscing elit"><img src="images/4.jpeg" alt="" /></li>
-						<li class="porfolio_links" data-type="html" data-title="Lorem ipsum 5" data-caption="dolor sit amet, consectetur adipiscing elit">
-							<h1>Heading</h1>
-
-							<p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.</p>
-							<p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.</p>
-							<p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.</p>
-							<p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.</p>
-						</li>
-						<li data-type="video" data-title="Vimeo Video">
-							<iframe src="http://player.vimeo.com/video/29950141?portrait=0&amp;color=ffffff" width="670" height="377" frameborder="0" webkitAllowFullScreen allowFullScreen></iframe>
-						</li>
-						<li data-type="video" data-title="Tetris Gameplay">
-							<iframe width="700" height="415" src="videos/tetris.swf" frameborder="0" allowfullscreen></iframe>
-						</li>
-						<li data-type="video" data-title="HTML5 Video">
-							<video width="700" height="390" controls preload="none"> 
-								<source src="http://mediaelementjs.com/media/echo-hereweare.mp4" type="video/mp4" /> 
-								<source src="http://mediaelementjs.com/media/echo-hereweare.webm" type="video/webm" /> 
-								<source src="http://mediaelementjs.com/media/echo-hereweare.ogv" type="video/ogg" /> 
-							</video>
-							2
-						</li>
-					</ul>
-				-->
-				</div>
-	    	
+		<div class="hero-unit">
+		  <h1>This is called the hero unit</h1>
+		  <p>It's more or less you content display area</p>
+		  <p>
+		    <a class="btn btn-primary btn-large">
+		      Learn more
+		    </a>
+		  </p>
 		</div>
-
-
-			<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
-			<script src="scripts/jquery.nivo.gallery.js"></script>
-			<script type="text/javascript">
-			$(document).ready(function() {
-				$('#gallery').nivoGallery();
-			});
-			</script>
-
-
-	           <h1 class="page_headers">Hullo, Welcome to my site!</h1> 
-			  
-	<p id = "intro_para">
-		I am a student studying  Information Systems at Carnegie Mellon University. Although, I have picked up a 
-		passion, as well as training, for Interaction Design and UX Design from the HCI department along the way as well! Check out some of the stuff I've done
-		in my life so far!
-	</p>
+		<div class="row-fluid">
+		  <div class="span12">
+		    Level 1 of column
+		    <div class="row-fluid">
+		      <div class="span6">Level 2</div>
+		      <div class="span6">Level 2</div>
+		    </div>
+		  </div>
+		</div>
 
 	  </div>
 	  <!-- end of content -->

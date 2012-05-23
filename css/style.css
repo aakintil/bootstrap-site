@@ -8,10 +8,27 @@ body
 #name
 {
 	font-size:400%;
-	margin:40px;
+	margin:29px;
+	float:left;
 }
 
-#title:hover
+.title:hover
 {
 	text-decoration:none;
+}
+.icon-briefcase
+{
+color:white;
+
+border: 1px solid white;
+}
+ul.nav
+{
+	font-size:150%;
+}
+ul.nav > li > a
+{
+	padding:20px;
+	margin:20px;
+/*	font-family: "league gothic";*/
 }
